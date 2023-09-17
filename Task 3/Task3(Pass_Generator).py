@@ -15,6 +15,7 @@ def main():
         length = int(input("Enter the desired length of the password: "))
         if length <= 0:
             print("Length must be greater than 0.")
+            return
         password = generate_password(length)
         print("Generated Password: ", password)
 
