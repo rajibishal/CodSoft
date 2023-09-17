@@ -15,7 +15,6 @@ def main():
         length = int(input("Enter the desired length of the password: "))
         if length <= 0:
             print("Length must be greater than 0.")
-            main()
         password = generate_password(length)
         print("Generated Password: ", password)
 
@@ -23,7 +22,6 @@ def main():
         print("Password copied to clipboard.")
     except ValueError:
         print("Invalid input. Please enter a valid length (a positive integer).")
-        main()
 
 if __name__ == "__main__":
     main()
