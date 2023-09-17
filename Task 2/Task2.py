@@ -46,9 +46,7 @@ def main():
         elif choice == '4':
             result = divide(num1, num2)
         
-
         print("Result: ", result)
-
 
 if __name__ == "__main__":
     main()
