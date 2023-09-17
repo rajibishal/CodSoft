@@ -32,7 +32,7 @@ def main():
             print("Invalid input")
             main()
             return
-        if choice == '5':
+        elif choice == '5':
             exit()
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
